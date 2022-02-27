@@ -49,8 +49,6 @@ class Seasonality_Outright:
         # save all final results for every market here
         self.final_table = []
 
-
-
     def main_func(self):
         fut = FuturesData()
 
@@ -99,7 +97,7 @@ class Seasonality_Outright:
 
             self.loop_1.append(df_loop_0)
 
-    ####################### Seasonality constructor for 15,10,5 years and best correlating month #######################
+        ####################### Seasonality constructor for 15,10,5 years and best correlating month #######################
         df_loop_1 = pd.concat(self.loop_1)
 
         # start from first date in the main dataframe with all contracts. This is the starting point of the current contract
