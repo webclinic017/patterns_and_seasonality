@@ -9,9 +9,6 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 from miscellaneous import *
 
-
-
-
 class Seasonality_Outright:
     def __init__(self,main,code,contr,exch,days):
 
